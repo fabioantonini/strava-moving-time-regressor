@@ -1,0 +1,4 @@
+aggiungere Max speed (da converire in Km/h)
+modello non lineare
+standardscaler
+
