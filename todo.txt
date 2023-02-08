@@ -1,3 +1,10 @@
-modello non lineare
-standardscaler
+rinomnare activities in routes e poi sostituirlo un po dappertutto
+svm
+pipeline con scaler e imputer
+ensemble
+
+
+prima creare il dataset stratificato e poi separale le features/labels e poi applicare lo scaler/imputer alle feature
+
+
 
