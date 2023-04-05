@@ -1,10 +1,11 @@
-rinomnare activities in routes e poi sostituirlo un po dappertutto
-svm
+rinominare activities in routes e poi sostituirlo un po dappertutto
 pipeline con scaler e imputer
 ensemble
+sgd_reg = SGDRegressor(max_iter=1, tol=-np.infty, warm_start=True,
+ penalty=None, learning_rate="constant", eta0=0.0005)
+early stopping
+commenti
 
-
-prima creare il dataset stratificato e poi separale le features/labels e poi applicare lo scaler/imputer alle feature
-
+eseguire il training su tutto il dataset
 
 
