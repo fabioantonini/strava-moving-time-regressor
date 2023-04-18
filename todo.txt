@@ -1,3 +1,8 @@
+inserire r2_score
+modell con TF
+RMSE Standard deviation: da verificare
+verificare condizioni di linearità
+pipleine: ciclare sui vari gradi
 rinominare activities in routes e poi sostituirlo un po dappertutto
 pipeline con scaler e imputer
 ensemble
