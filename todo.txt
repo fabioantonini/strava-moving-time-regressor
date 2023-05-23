@@ -1,4 +1,3 @@
-inserire r2_score
 modell con TF
 RMSE Standard deviation: da verificare
 verificare condizioni di linearità
