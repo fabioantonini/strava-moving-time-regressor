@@ -1,4 +1,32 @@
+# Project-specific
 *.pkl
-.ipynb_checkpoints
-.gradio
-export_*
+.ipynb_checkpoints/
+.gradio/
+export_*/
+activities.csv
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.~*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documents
+*.pdf
+*.zip
