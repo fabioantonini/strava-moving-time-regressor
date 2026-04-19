@@ -1,0 +1,21 @@
+services:
+
+  train:
+    build: .
+    volumes:
+      - .:/app          # activities.csv in, pipeline_gb.pkl + PNG out
+    command: python strava-moving-time-estimator-llm-rouvy.py
+
+  notebook:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"     # JupyterLab
+      - "7860:7860"     # Gradio UI
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --no-browser
+      --allow-root
+      --NotebookApp.token=''

@@ -1,0 +1,14 @@
+.git/
+.ipynb_checkpoints/
+.gradio/
+export_*/
+__pycache__/
+*.pyc
+*.pkl
+*.png
+*.pdf
+*.zip
+activities.csv
+.env
+.venv/
+venv/
